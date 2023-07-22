@@ -1,0 +1,256 @@
+header
+{
+  background-color: #4a258f9f;
+ 
+ width:100%;
+ padding: 15px;
+
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  background-attachment:unset;
+  
+}
+*{
+    font-family: cursive;
+    color: white;
+    overflow-x: hidden
+}
+body
+{
+  font-style: italic;
+  background-image:url("wall.jpg");
+  background-size:100%;
+  background-attachment: fixed;
+  
+}
+.head{
+    text-align: center;
+    background-color: purple;
+    padding: 20px;
+    border:groove;
+    border-color:black;
+    border-radius:10px;
+    margin: 10px 0px;
+    
+    
+}
+.imag{
+    margin: 0px 50px 0 10px ;
+    border:  groove 8px;
+    border-color: purple;
+    border-radius: 10px;
+    position: relative;
+   height: 430px;
+   width: 1000px
+}
+.para{
+    text-align: center;
+    margin: 20px 20px 0px 0px;
+    padding: 15px 5px ;
+    width: 25%;
+    background-color: purple;
+    font-size: larger;
+    border:groove;
+    border-color:black;
+    border-radius:10px;
+    position: relative;
+    bottom: 47%;
+    
+    left: 38%;
+    
+}
+a
+{text-align: center;
+   right: 50%;
+    left: 40%;
+    font-size: large;
+    text-decoration: none;
+    
+    position: relative;
+    bottom:48%;
+    margin: 20px 20px 0px 0px;
+    padding: 15px 5px ;
+    width: 25%;
+}
+a:hover{
+    text-decoration:underline;
+    
+}
+.inline{
+    width: 1150px;
+    font-size: large;
+    font-family: cursive;
+    line-height: 50px;
+    border:solid;
+    border-color:black;
+    border-radius:10px;
+    margin: 10px 0px 10px ;
+    padding: 10px 10px ;
+    position: relative;
+    bottom:45%; 
+}
+.online{
+    display: inline;
+    font-size: large;
+    font-family: cursive;
+     position: relative;
+    bottom:48%;
+    right: 50%;
+    left: 40%;
+    
+}
+
+.imageimdb{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    position: relative;
+    bottom:50%;
+    right: 50%;
+    left: 40%;
+}
+.imagewiki{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    position: relative;
+    bottom:47%;
+    right: 50%;
+    left: 40%;
+}
+.parag{
+    position: relative;
+    left: 1%;
+    bottom:47%;
+    background-color: purple;
+    border:groove;
+    border-color:black;
+    border-radius:10px;
+    margin: 10px -10px 0px -15px ;
+    padding: 10px 10px ;
+    width: 100px;
+    font-size: larger
+}
+.par{
+    width: 100px;
+    position: relative;
+    left: 1%;
+    bottom: 40%;
+    background-color: purple;
+    border:groove;
+    border-color:black;
+    border-radius:10px;
+    margin: 10px -10px;
+    padding: 10px 10px ;
+    font-size: larger;
+}
+.castimg{
+    height: 160px;
+    width: 160px;
+    position: relative;
+    bottom: 40%;
+    border: groove 8px;
+    border-color: purple;
+    margin: 10px 0px;
+    
+    border-image: round;
+    
+}
+.castp{ 
+  position: relative;
+    bottom: 37%;
+    height: 50px;
+   width: 1400px;
+    
+    font-family: cursive;
+  letter-spacing: 1px;
+  
+   
+
+}
+.castimg2{
+    height: 160px;
+    width: 160px;
+    position: relative;
+    bottom: 30%;
+    left: 0%;
+    border: groove 8px;
+    border-color: purple;
+    margin: 20px 0px;
+    
+    border-image: round;
+  
+}
+.castp2{ 
+  position: relative;
+    bottom: 30%;
+    height: 100px;
+   width: 1400px;
+   letter-spacing: 1px;
+    font-family: cursive;
+    
+
+}
+.par2{display: inline;
+    width: 200px;
+    position: relative;
+    bottom:40%;
+    background-color: purple;
+    border:groove;
+    border-color:black;
+    border-radius:10px;
+    margin: 20px 4px;
+    padding: 10px 10px ;
+    font-size: larger;
+}
+.imagemarvel{
+    position: relative;
+    bottom: 29%;
+}
+.par3{text-align: center;
+font-size: larger;
+    width: 200px;
+    position: relative;
+    left:40%;
+    bottom:22%;
+    background-color: purple;
+    border:groove;
+    border-color:black;
+    border-radius:10px;
+    margin: 20px 4px;
+    padding: 10px 10px ;
+    font-size: larger;
+}
+.trailer{position: relative;
+bottom:18%;
+left: 32%;
+   
+}
+.par4{
+    text-align: center;
+    font-size: larger;
+    width: 200px;
+    position: relative;
+    left:40%;
+    bottom:40%;
+    background-color: purple;
+    border:groove;
+    border-color:black;
+    border-radius:10px;
+    margin: 20px 4px;
+    padding: 10px 10px ;
+    font-size: larger;
+}
+.movie{
+  position: relative;
+  left: 25%;
+}
+.all{
+ text-align: center;
+right: 50px
+ 
+}
+.names{
+ text-align: center;
+ position: relative;
+ left: 5px;
+}

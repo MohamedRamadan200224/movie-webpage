@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <!--first adjust charset to utf-8 to support many languages and adding style sheet and its reference to be able to run css-->
+    <head>
+        <meta charset="UTF-8"/>
+        <title>it project</title>
+        <link rel='stylesheet'href='Text-1.css'/>
+        <script type="text/javascript" src="Text-1.js"></script>
+    </head>
+    <body>
+    <div style="display: flex; flex-direction: row; flex-wrap: wrap">
+       <header>
+        <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:70px;">Galaxy Movies</h2>
+       </header>
+       <br/><br/>
+     <p class="all"> <img class="imag" src="img3.jpg" title="Avengers Endgame" alt="Avengers Endgame"  height=320; width=300;></p>
+     <h3 class="para" onclick="change(this);">Avengers Endgame</h3>
+     </div>
+    <div style="display: flex; flex-direction: row;flex-wrap: wrap">
+     <img class="imageimdb" src="imdb.png" alt="imdb" height=30px; >
+     <a href="https://www.imdb.com/title/tt4154796/" ><strong>IMDB</strong></a>
+     <p class="online">: 8.4/10</p>
+     <img class="imagewiki"src="wiki2.png" alt="wikipedia" height=30px>
+     <a href="https://en.wikipedia.org/wiki/Avengers:_Endgame"><strong>WIKI</strong></a>
+     </div>
+     <br>
+     <div style="display: flex; flex-direction: row;flex-wrap: wrap">
+     <h3 class="parag"><strong>STORY :</strong></h3>
+     <p class="inline" style="background-color: purple;">After the devastating events of Avengers: Infinity War (2018), the universe is in ruins.
+     With the help of remaining allies,the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.</p>
+     </div>
+     <!--putting cast and their image-->
+     <h3 class="par"><strong>CAST :</strong></h3>
+     <div style="display: flex; flex-direction: row;">
+     <img src="iron.jpg" alt="Ironman" class="castimg">
+     <img src="captain.jpg" alt="Captain America" class="castimg">
+     <img src="hulk.jpg" alt="Hulk" class="castimg">
+     <img src="thor.jpg" alt="Thor" class="castimg">
+     <img src="thanos.jpg" alt="Thanos" class="castimg">
+     <img src="hawkeye.jpg" alt="Hawkeye" class="castimg">
+     <img src="war machine.jpg" alt="War Machine" class="castimg">
+     <img src="antman.jpg" alt="Antman" class="castimg">
+     </div>
+     <div style="text-align: left">
+     <p class="castp" ><strong>
+     &nbsp;Robert Downey Jr.&nbsp;&nbsp;Chris Evans&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mark Ruffalo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chris Hemsworth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Josh Brolin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jeremy Renner&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Don Cheadle&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paul Rudd</strong></p>
+     </div>
+     <div style="display: flex; flex-direction: row;">
+     <img src="marvel.jpg" alt="Marvel" class="castimg2">
+     <img src="widow.jpg" alt="Black Widow" class="castimg2">
+     <img src="nebula.jpg" alt="Nebula" class="castimg2">
+     <img src="okoye.jpg" alt="Okoye" class="castimg2">
+     <img src="wong.jpg" alt="Wong" class="castimg2">
+     <img src="hogan.jpg" alt="Happy Hogan" class="castimg2">
+     <img src="rocket.jpg" alt="Rocket" class="castimg2">
+     <img src="pepper.jpg" alt="Pepper" class="castimg2">
+     </div>
+     <p class="castp2"><strong>&nbsp;&nbsp;Brie Larson&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scarlett Johansson&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Karen Gillan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Danai Gurira&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Benedict Wong&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jon Favreau&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bradley Cooper&nbsp;&nbsp;&nbsp;&nbsp;Gwyneth Paltrow</strong></p>
+     <h3 class="par2" ><strong>PRODUCTION BY :</strong></h3>
+     <img src="marvel1.jpg" alt="Marvel Logo" height=30px; class="imagemarvel">
+     <!--adding trailer to webpage by iframe-->
+     <h3 class="par3" ><strong>TRAILER</strong></h3>
+     <div class="trailer">
+      <iframe width="500" height="300" src="https://www.youtube.com/embed/TcMBFSGVi1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
+     <!--adding the movie with controls to webpage-->
+     <h3 class="par4" ><strong>MOVIE</strong></h3>
+     <div class="movie"><video height="400" width="700" poster="image5.jpg" controls>
+      <source src="AvengersEndgame.mp4" type="video/mp4" >
+      </video>
+     </div>
+     <br>
+     <p class="names"><strong>Name: Mohamed Ramadan Attya Mohamed<br>Id: 202000759</strong></p>
+   </body>
+    
+</html>

@@ -1,0 +1,39 @@
+.castimg{
+    height: 170px;
+    width: 170px;
+    position: relative;
+    top: -30%;
+    border: groove 8px;
+    border-color: purple;
+    margin: 10px 0px;
+    
+    border-image: round;
+    float: left;
+}
+.castimg2{
+    height: 170px;
+    width: 170px;
+    position: relative;
+    top: 0%;
+    left: 30%;
+    border: groove 8px;
+    border-color: purple;
+    margin: 20px 0px;
+    
+    border-image: round;
+    float: left;
+}
+ <br>
+   <h3 class="par2"><strong>ACTORS</strong></h3>
+   <img src="iron.jpg" alt="Ironman" class="castimg">
+   <img src="captain.jpg" alt="Captain America" class="castimg">
+   <img src="hulk.jpg" alt="Hulk" class="castimg">
+   <img src="thor.jpg" alt="Thor" class="castimg">
+   <img src="thanos.jpg" alt="Thanos" class="castimg">
+   <img src="hawkeye.jpg" alt="Hawkeye" class="castimg">
+   <img src="war machine.jpg" alt="War Machine" class="castimg">
+   <img src="antman.jpg" alt="Antman" class="castimg">
+   
+   <img src="rocket.jpg" alt="Rocket" class="castimg2">
+   <img src="wong.jpg" alt="Wong" class="castimg2">
+   <img src="hogan.jpg" alt="Happy Hogan" class="castimg2">
